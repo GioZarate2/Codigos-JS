@@ -1,0 +1,15 @@
+var hoy = new Date();
+var añoactual = hoy.getFullYear();
+var fechacumple = new Date("Julio 11, 2004");
+var añocumple = fechacumple.getFullYear();
+var años = añoactual - añocumple;
+console.log("edad: " + años);
+
+
+
+
+var hoy = new Date();
+var actual = hoy.getFullYear();
+var cumpleaños = new Date("Julio 11, 2004");
+var años = actual - cumpleaños;
+console.log("edad: " + años);
